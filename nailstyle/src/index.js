@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './components/admin.css';
+import './admin.css';
 import Navbar from './components/Navbar.js';
+import Main from './components/Main.js'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navbar />
+    <Navbar nome_do_usuario="Gabriel Ferreira Amorim"/>
+    <Main />
   </React.StrictMode>
 );
 

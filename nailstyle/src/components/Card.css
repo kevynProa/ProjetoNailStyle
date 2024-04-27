@@ -1,0 +1,58 @@
+.corpo_card{
+    width: 343px;
+    height: 316px;
+    border-radius: 15px;
+    background: #FFB6C1;
+}
+
+.titulo_card{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.texto_card{
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.foto_perfil_card{
+    height: 31px;
+    border-radius: 50%;
+    border: #777777 solid 0.8;
+}
+
+.infos_card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 20px;
+}
+
+.img_chart_div{
+    width: 100%;
+    height: 69px;
+}
+
+.img_chart{
+    background-size: 'contain';
+    background-repeat: 'no-repeat';
+    background-position: 'center';
+    height: 100%;
+}
+
+.qntd_card{
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.desc_card{
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1000px){
+    .corpo_card{
+        width: 100%;
+    }
+}

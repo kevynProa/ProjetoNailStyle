@@ -1,0 +1,26 @@
+
+
+.conteiner_main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+}
+
+.card_infos{
+    display: flex;
+    gap: 10px;
+
+}
+
+
+@media screen and (max-width: 1000px){
+    .card_infos{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        padding: 10px;
+    }
+}
