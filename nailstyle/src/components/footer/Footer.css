@@ -1,0 +1,48 @@
+div.footer{
+    height: 50px;
+    background-color: #1e1e1e;
+    position: relative;
+    bottom: 0px;
+}
+.navlink{
+    height: 100%;
+    width: 100%;
+    padding-top: 1px;
+}
+.lista{
+    display: flex;
+    position: relative;
+    height: auto;
+    width: auto;
+    justify-content: space-around;
+    list-style: none;
+    color: #fff;
+    top: -1px;
+}
+a{
+    font-size: 0.8rem;
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+}
+.fa-whatsapp{
+    position: relative;
+    right: 6px;
+    top: 1px;
+}
+.fa-facebook{
+    position: relative;
+    right: 6px;
+    top: 1px;
+}
+.fa-instagram{
+    position: relative;
+    right: 6px;
+    top: 1px;
+}
+.fa-youtube{
+    position: relative;
+    right: 6px;
+    top: 1px;
+}
+

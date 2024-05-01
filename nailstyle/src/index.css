@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom right, #DDA0DD, #ADD8E6)no-repeat;
+}
+h2{
+  color: #fff;
+  font-family: "Lily Script One", system-ui;
+}
+

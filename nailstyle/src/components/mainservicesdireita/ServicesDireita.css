@@ -1,0 +1,104 @@
+.service1{
+    color: #fff;
+    position: relative;
+    bottom: 30px;
+}
+.descript2{
+    color: #fff;
+    font-size: 0.8rem;
+    position: relative;
+    bottom: 30px;
+    right: 12px;
+}
+.extern2{
+    padding: 0vh;
+    margin-left: 100vh;
+    height: auto;
+    width: auto;
+ 
+}
+.container4{
+    align-items: center;
+    text-align: center;
+    position: relative;
+ 
+    padding-left: vh;
+}
+.imgone{
+    padding: 0;
+    height: 38vh;
+    width: 30vh;
+    right: -11vh;
+    position: relative;
+    top: -6vh;
+    transform: rotate(-4deg);
+    border-top-width: 8px; /* Tamanho da borda superior */
+    border-right-width: 8px; /* Tamanho da borda direita */
+    border-bottom-width: 35px; /* Tamanho da borda inferior */
+    border-left-width: 8px; /* Tamanho da borda esquerda */
+    border-style: solid; /* Estilo da borda (pode ser solid, dashed, etc.) */
+    border-color: snow; /* Cor da borda */
+    border-radius: 5px;
+    transition: transform 0.5s;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.4); /* Sombra com deslocamento de 0px na horizontal, 4px na vertical, desfoque de 8px e cor rgba(0, 0, 0, 0.4) */
+}
+.imgtree{
+    padding: 0;
+    height: 38vh;
+    width: 30vh;
+    right: -26vh;
+    position: relative;
+    top: -6vh;
+    transform: rotate(4deg); /*Rotaciona a imagem*/
+    border-top-width: 8px; /* Tamanho da borda superior */
+    border-right-width: 8px; /* Tamanho da borda direita */
+    border-bottom-width: 35px; /* Tamanho da borda inferior */
+    border-left-width: 8px; /* Tamanho da borda esquerda */
+    border-style: solid; /* Estilo da borda (pode ser solid, dashed, etc.) */
+    border-color: snow; /* Cor da borda */
+    border-radius: 5px;
+    transition: transform 0.5s;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.4); /* Sombra com deslocamento de 0px na horizontal, 4px na vertical, desfoque de 8px e cor rgba(0, 0, 0, 0.4) */
+}
+.imgfour{
+    padding: 0;
+    height: 38vh;
+    width: 30vh;
+    right: 30vh;
+    position: relative;
+    top: -8vh;
+    border-top-width: 8px; /* Tamanho da borda superior */
+    border-right-width: 8px; /* Tamanho da borda direita */
+    border-bottom-width: 35px; /* Tamanho da borda inferior */
+    border-left-width: 8px; /* Tamanho da borda esquerda */
+    border-style: solid; /* Estilo da borda (pode ser solid, dashed, etc.) */
+    border-color: snow; /* Cor da borda */
+    border-radius: 5px;
+    transition: transform 0.5s;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.4); /* Sombra com deslocamento de 0px na horizontal, 4px na vertical, desfoque de 8px e cor rgba(0, 0, 0, 0.4) */
+}
+.text2{
+    text-align: left;
+    padding-right: 30px;
+    margin: auto;
+    height: 0;
+    margin-top: 50px;
+    width: 50%;
+    right: 100vh;
+    position: relative;
+}
+.imgone:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.imgtree:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.imgfour:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.1);
+}

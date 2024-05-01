@@ -1,0 +1,67 @@
+.App-header {
+  max-height: 8vh;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-size: calc(2px + 2vmin);
+  color: white;
+}
+.container{
+  height: 100vh;
+}
+.mainpicture{
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: linear-gradient(to bottom right, #DDA0DD, #ADD8E6)no-repeat;
+}
+.mainservices{
+  width: 100%;
+  height: 120vh;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: linear-gradient(to bottom left, #ADD8E6, #dda0dd)no-repeat;
+}
+.login{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: linear-gradient(to bottom right, #DDA0DD, #ADD8E6)no-repeat;
+}
+.logincontainer{
+  background-color: rgba(0, 0, 0, 0.2); /* Vermelho com 50% de opacidade */
+  height: 100%;
+  width: auto;
+  position: relative;
+  bottom: 40px;
+}
+.loginlogin{
+  background-image: url("img/nuvenzonapreta.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+/* CSS */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Definindo a duração da transição para 0.5 segundos (500ms) */
+html, body {
+  transition-duration: 0.5s;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+div.footer2{
+    height: 50px;
+    background-color: #1e1e1e;
+    position: relative;
+    top: 0;
+    border: 1px solid #1e1e1e;
+}
+.nav-link{
+    height: 100%;
+    width: 100%;
+    padding-top: 1px;
+}
+.lista{
+    display: flex;
+    position: relative;
+    height: auto;
+    width: auto;
+    justify-content: space-around;
+    list-style: none;
+    color: #fff;
+    top: 5px;
+}
