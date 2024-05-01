@@ -12,7 +12,13 @@
 .card_infos{
     display: flex;
     gap: 10px;
+}
 
+.card_infos_complete{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 10px
 }
 
 
@@ -23,4 +29,11 @@
         flex-direction: column;
         padding: 10px;
     }
+
+    .menu-lateral{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    
 }
