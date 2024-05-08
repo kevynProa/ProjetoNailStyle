@@ -3,9 +3,8 @@
     width: 48vh;
     position: relative;
     left: 130vh;
-    bottom: 26vh;
-    border: none;
-    
+    bottom: 36vh;
+    border: none;  
     border-top-width: 8px; /* Tamanho da borda superior */
     border-right-width: 8px; /* Tamanho da borda direita */
     border-bottom-width: 8px; /* Tamanho da borda inferior */
@@ -13,5 +12,11 @@
     border-style: solid; /* Estilo da borda (pode ser solid, dashed, etc.) */
     border-color: pink ; /* Cor da borda */
     border-radius: 5px;
+    transition: transform 0.5s;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.4); /* Sombra com deslocamento de 0px na horizontal, 4px na vertical, desfoque de 8px e cor rgba(0, 0, 0, 0.4) */
+}
+.img2:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.1);
 }

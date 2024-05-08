@@ -1,5 +1,6 @@
 /* styles.css */
 .form-container {
+  border: 2px solid #fff;
   background: linear-gradient(to top left, #ADD8E6, #dda0dd)no-repeat;
   height: 75%;
   max-width: 300px;
@@ -38,6 +39,17 @@
   border-radius: 5px;
   cursor: pointer;
   top: 40px;
+  transition: all 0.3s ease;
+}
+.form-button:hover{
+  filter: grayscale(0);
+  cursor: pointer;
+  transform: scale(0.98);
+}
+.form-button:active {
+  /* Adicione estilos quando o botão for clicado */
+  transform: scale(0.98);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 .forgot-password{
   text-align: center;
@@ -55,6 +67,17 @@
   top: 25px;
   background-color: #FFB6C1;
   border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.signup-button:hover{
+  filter: grayscale(0);
+  cursor: pointer;
+  transform: scale(0.98);
+}
+.signup-button:active {
+  /* Adicione estilos quando o botão for clicado */
+  transform: scale(0.99);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 .form-button:hover {
   background-color: #4D4DFF;

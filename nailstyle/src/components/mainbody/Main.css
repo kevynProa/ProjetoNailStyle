@@ -1,11 +1,16 @@
 .container1{
+    padding: 0;
     position: relative;
     margin: 50px;
     top: 120px;
     color: #fff;
+    background-color: #1e1e1e;
+    border: 1px solid #fff;
+    width: 35%;
+    height: 35%;
 }
 button{
-    border: none;
+    border: 1px solid #fff;
     padding: 10px;
     margin-left: 10px;
     border-radius: 4px;
@@ -20,8 +25,13 @@ button{
 button:hover{
     background-color: #993399;
 }
+button:active {
+    /* Adicione estilos quando o botão for clicado */
+    transform: scale(0.98);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
 .btn1{
-    border: none;
+    border: 1px solid #fff;
     padding: 10px;
     margin-left: 10px;
     border-radius: 4px;
@@ -31,4 +41,22 @@ button:hover{
 }
 .btn1:hover{
     background-color: #ff0084 ;
+}
+main{
+    margin: 0;
+    padding: 0;
+}
+.text{
+    display: flex;
+    justify-content: left;
+    border: 1px solid #fff;
+    width: 100%;
+    height: auto;
+}
+.line{
+    display: flex;
+    justify-content: left;
+    border: 1px solid #fff;
+    width: 100%;
+    height: auto;
 }

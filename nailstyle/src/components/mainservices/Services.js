@@ -12,16 +12,14 @@ function Services (){
 
     return(
        
-        <div className='extern'>
-            <div className='text1'>
+        <div className='container-cards'>
+            <div className='txt1'>
             <h2 className='subtitle'>Por que escolher nossos serviços</h2>
                 <p className='descript'>Nossos serviços são oferecidos no conforto da sua casa, evitando deslocamentos e economizando seu tempo precioso. Mantemos rigorosos padrões de higiene, garantindo a esterilização completa de todos os equipamentos entre os clientes para sua tranquilidade e segurança.Utilizamos apenas produtos de alta qualidade, proporcionando resultados duradouros e uma experiência de manicure verdadeiramente satisfatória.</p>
-            </div>
-            <div className='container'>    
+            </div> 
                 <img src={img1} alt='imagem de unha' title='Unhas Azuis' className='img1'/>
                 <img src={img3} alt='imagem de unha' title='Unhas Azuis' className='img3'/>
                 <img src={img4} alt='imagem de unha' title='Unhas Azuis' className='img4'/>
-                </div>
         </div>
     )
 };

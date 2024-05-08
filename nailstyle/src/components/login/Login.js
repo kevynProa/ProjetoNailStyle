@@ -19,7 +19,6 @@ const Login = () => {
     console.log('Usuário:', username);
     console.log('Senha:', password);
   };
-
   return (
     <div className='form-container'>
       <h2>NailStyle</h2>

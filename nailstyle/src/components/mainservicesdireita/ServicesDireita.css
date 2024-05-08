@@ -1,36 +1,27 @@
 .service1{
+    width: 75%;
     color: #fff;
     position: relative;
-    bottom: 30px;
+    bottom: 60px;
+    border: 1px solid #fff;
+    left: 62.5vh;
 }
 .descript2{
+    width: 75%;
+    border: 1px solid #fff;
     color: #fff;
     font-size: 0.8rem;
     position: relative;
-    bottom: 30px;
-    right: 12px;
-}
-.extern2{
-    padding: 0vh;
-    margin-left: 100vh;
-    height: auto;
-    width: auto;
- 
-}
-.container4{
-    align-items: center;
-    text-align: center;
-    position: relative;
- 
-    padding-left: vh;
+    bottom: 60px;
+    left: 62.5vh;
 }
 .imgone{
     padding: 0;
     height: 38vh;
     width: 30vh;
-    right: -11vh;
+    right: -120vh;
     position: relative;
-    top: -6vh;
+    top: -8vh;
     transform: rotate(-4deg);
     border-top-width: 8px; /* Tamanho da borda superior */
     border-right-width: 8px; /* Tamanho da borda direita */
@@ -46,9 +37,9 @@
     padding: 0;
     height: 38vh;
     width: 30vh;
-    right: -26vh;
+    right: -137vh;
     position: relative;
-    top: -6vh;
+    top: -8vh;
     transform: rotate(4deg); /*Rotaciona a imagem*/
     border-top-width: 8px; /* Tamanho da borda superior */
     border-right-width: 8px; /* Tamanho da borda direita */
@@ -64,9 +55,9 @@
     padding: 0;
     height: 38vh;
     width: 30vh;
-    right: 30vh;
+    right: -80vh;
     position: relative;
-    top: -8vh;
+    top: -10vh;
     border-top-width: 8px; /* Tamanho da borda superior */
     border-right-width: 8px; /* Tamanho da borda direita */
     border-bottom-width: 35px; /* Tamanho da borda inferior */
@@ -77,7 +68,8 @@
     transition: transform 0.5s;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.4); /* Sombra com deslocamento de 0px na horizontal, 4px na vertical, desfoque de 8px e cor rgba(0, 0, 0, 0.4) */
 }
-.text2{
+.txt2{
+    background-color: purple;
     text-align: left;
     padding-right: 30px;
     margin: auto;

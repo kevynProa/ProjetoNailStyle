@@ -1,5 +1,6 @@
 /* ESTILIZAÇÃO CSS DO COMPONENTE NavBar*/ 
 .container{
+    background-color: black ;
     position: relative;
     margin: 0;
     padding: 0;
@@ -57,13 +58,6 @@ button{
 .logo{
     font-family: "Lily Script One", system-ui;
 }
-.loggin{
-    padding: 4px;
-    padding-left: 18px;
-    padding-right: 18px;
-    border: 2px solid #fff;
-    border-radius: 8px;
-}
 .Home:hover{
     color: #999DE2;
 }
@@ -71,5 +65,5 @@ button{
     color: #999DE2;
 }
 .loggin:hover{
-    background-color: #DDA0DD;
+    color: #999DE2;
 }

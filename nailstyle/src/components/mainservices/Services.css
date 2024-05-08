@@ -1,24 +1,30 @@
-.h2{
+.subtitle{
+    background-color: purple;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    border: 1px solid #fff;
     color: #fff;
 }
 .descript{
+    background-color: purple;
+    border: 1px solid #fff;
+    justify-content: center;
+    display: flex;
+    width: 100%;
     color: #fff;
     font-size: 0.8rem;
 }
-.extern{
-    padding: 0vh;
-    margin-left: 100vh;
-    height: auto;
-    width: auto;
- 
-}
-.container{
-    align-items: center;
-    text-align: center;
+.container-cards{
+    border: 1px solid #fff;
+    background-color: rgb(219, 128, 219);
+    padding: 0;
     position: relative;
- 
-    padding-left: vh;
+    right: -105vh;
+    width: 50%;
+    height: auto;
 }
+
 .img1{
     padding: 0;
     height: 38vh;
@@ -72,7 +78,7 @@
     transition: transform 0.5s;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.4); /* Sombra com deslocamento de 0px na horizontal, 4px na vertical, desfoque de 8px e cor rgba(0, 0, 0, 0.4) */
 }
-.text1{
+.txt1{
     text-align: right;
     padding-right: 30px;
     margin: auto;

@@ -8,8 +8,8 @@ import img4 from '../../img/img4.jpeg'
 function ServicesDireita (){
     return(
        
-        <div className='extern2'>
-            <div className='text2'>
+        <div className='container-card'>
+            <div className='txt2'>
             <h2 className='service1'>Com o quê trabalhamos</h2>
                 <p className='descript2'>
 - Utilizar instrumentos, equipamentos e produtos<br/>
@@ -28,11 +28,9 @@ function ServicesDireita (){
 <br/>
 - Atuar de acordo com normas de biossegurança</p>
             </div>
-            <div className='container4'>    
                 <img src={img1} alt='imagem de unha' title='Unhas Azuis' className='imgone'/>
                 <img src={img3} alt='imagem de unha' title='Unhas Azuis' className='imgtree'/>
                 <img src={img4} alt='imagem de unha' title='Unhas Azuis' className='imgfour'/>
-                </div>
         </div>
     )
 }
