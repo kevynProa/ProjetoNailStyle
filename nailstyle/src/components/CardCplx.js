@@ -1,6 +1,5 @@
 import './card.cplx.css'
 import usuario from '../img/user.png'
-import chart_line from '../img/line-chart.png'
 
 function CardCplx(props){
     return (

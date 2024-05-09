@@ -1,15 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './admin.css';
-import Navbar from './components/Navbar.js';
-import Main from './components/Main.js'
+import ADM_1 from './routes/ADM_1.js';
+import Mensagens from './routes/Mensagens.js'
 import reportWebVitals from './reportWebVitals';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <ADM_1 />
+  },
+  {
+    path: "/Mensagens",
+    element: <Mensagens />
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navbar nome_do_usuario="Gabriel Ferreira Amorim"/>
-    <Main />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 
